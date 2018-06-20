@@ -2,3 +2,5 @@
 *.DS_Store
 *[Tt]humbs.db
 *.Trashes
+*.crx
+*.zip
