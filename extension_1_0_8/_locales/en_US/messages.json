@@ -1,0 +1,18 @@
+{
+	"extName":{"message":"SpellBook - Execute Bookmarklets from Right Click"},
+	"extDescription":{"message":"Place all bookmarklets to 'Bookmarklets' folder and you can execute them from right click"},
+	"DefaultRootFolder":{"message":"Bookmarklets"},
+	"BookmarkManager":{"message":"Bookmark Manager"},
+	"FindBookmarklet":{"message":"Find Bookmarklet"},
+	"AboutExtension":{"message":"About SpellBook"},
+	"AboutExtensionDescription":{"message":"Instruction
+Place all bookmarklets to 'Bookmarklets' folder and you can execute them from right click.
+
+By
+Takayuki Fukatsu
+artandmobile.com
+
+Contact
+fukatsu@gmail.com
+twitter.com/takayukifukatsu"}
+}

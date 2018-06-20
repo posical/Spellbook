@@ -1,0 +1,18 @@
+{
+	"extName":{"message":"SpellBook - ブックマークレットを右クリックから実行"},
+	"extDescription":{"message":"Bookmarkletsフォルダにブックマークレットを入れると、右クリックから呼び出せるようになります。"},
+	"DefaultRootFolder":{"message":"Bookmarklets"},
+	"BookmarkManager":{"message":"ブックマーク マネージャ"},
+	"FindBookmarklet":{"message":"ブックマークレットを入手"},
+	"AboutExtension":{"message":"SpellBookについて"},
+	"AboutExtensionDescription":{"message":"使い方
+Bookmarkletsフォルダにブックマークレットを入れると、右クリックから呼び出せるようになります。
+
+制作
+Takayuki Fukatsu
+artandmobile.com
+
+コンタクト
+fukatsu@gmail.com
+twitter.com@fladdict"}
+}
