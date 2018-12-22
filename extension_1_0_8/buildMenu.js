@@ -136,7 +136,7 @@ function invokeBookmarklet(node)
 	var code = node.url.split("%20").join(" ");	
 	if (code.indexOf("javascript:")==0) {	
 		chrome.tabs.getSelected( null, function(myTab){
-				chrome.tabs.update(myTab.id, { url:code });
+				chrome.tabs.executeScript(myTab.id, { code:code });
 			} 
 		);
 	}
