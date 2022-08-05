@@ -5,14 +5,5 @@
 	"BookmarkManager":{"message":"Bookmark Manager"},
 	"FindBookmarklet":{"message":"Find Bookmarklet"},
 	"AboutExtension":{"message":"About SpellBook"},
-	"AboutExtensionDescription":{"message":"Instruction
-Place all bookmarklets to 'Bookmarklets' folder and you can execute them from right click.
-
-By
-Takayuki Fukatsu
-artandmobile.com
-
-Contact
-fukatsu@gmail.com
-twitter.com/takayukifukatsu"}
+	"AboutExtensionDescription":{"message":"Instruction: Place all bookmarklets to 'Bookmarklets' folder and you can execute them from right click."}
 }
