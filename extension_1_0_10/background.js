@@ -1,3 +1,16 @@
+//On first install open onboarding
+chrome.runtime.onInstalled.addListener(r => {
+	if(r.reason == 'install'){
+		//first install
+		//show onboarding page
+		chrome.tabs.create({
+			url: 'onboarding-page.html'
+		});
+	};
+});
+
+
+
 //Setup listeners for update
 chrome.bookmarks.onMoved.addListener(onBookmarkMoved);
 chrome.bookmarks.onRemoved.addListener(onBookmarkRemoved);
@@ -136,7 +149,7 @@ function invokeBookmarklet(node)
 	var code = node.url.split("%20").join(" ");	
 	if (code.indexOf("javascript:")==0) {	
 		chrome.tabs.getSelected( null, function(myTab){
-				chrome.tabs.executeScript(myTab.id, { code:code });
+				chrome.scripting.executeScript(myTab.id, { code:code });
 			} 
 		);
 	}
