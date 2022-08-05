@@ -7,6 +7,6 @@
   "default_locale":"en_US",
   "icons": {"16":"icon16.png","48":"icon48.png","128":"icon128.png"},
   "permissions": ["contextMenus","bookmarks","tabs"],
-  "host_permissions": ["*://*/*","<all_urls>"],
+  "host_permissions": ["<all_urls>"],
   "background": {"service_worker": "background.js"}
 }
