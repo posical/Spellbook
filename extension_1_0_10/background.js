@@ -9,8 +9,6 @@ chrome.runtime.onInstalled.addListener(r => {
 	};
 });
 
-
-
 //Setup listeners for update
 chrome.bookmarks.onMoved.addListener(onBookmarkMoved);
 chrome.bookmarks.onRemoved.addListener(onBookmarkRemoved);
